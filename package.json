@@ -1,0 +1,22 @@
+{
+  "name": "pwa-3000",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:scss": "onchange sass style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edvinamborg/PWA-3000.git"
+  },
+  "author": "Edvin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edvinamborg/PWA-3000/issues"
+  },
+  "homepage": "https://github.com/edvinamborg/PWA-3000#readme",
+  "devDependencies": {
+    "onchange": "^7.1.0"
+  }
+}
