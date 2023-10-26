@@ -3,18 +3,3 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
-
-body {
-    text-align: right;
-    background-color: hotpink;
-}
-img {
-    width: 50%;
-    height: 50%;
-    margin: 2em;
-    margin-left: 30%;
-
-}
-h1 {
-    text-align: center;
-}
