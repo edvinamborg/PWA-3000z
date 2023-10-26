@@ -18,5 +18,8 @@
   "homepage": "https://github.com/edvinamborg/PWA-3000#readme",
   "devDependencies": {
     "onchange": "^7.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
   }
 }
