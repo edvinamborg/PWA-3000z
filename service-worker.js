@@ -2,14 +2,15 @@ self.addEventListener('install', event => {
     event.waitUntil(
         caches.open('v1')
             .then(cache => {
-                cache.addAll([
+                return cache.addAll([ // Add the return statement here
                     './',
                     './style.css',
                     './logic.js'
                 ]);
-                console.log('Assets cached')
-                
             })
-            .catch(err => console.log('could not cache assets')) 
+            .then(() => {
+                console.log('Assets cached');
+            })
+            .catch(err => console.log('Could not cache assets')) 
     )  
-})
+});
