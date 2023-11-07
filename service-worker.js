@@ -5,7 +5,7 @@ self.addEventListener('install', event => {
                 return cache.addAll([ // Add the return statement here
                     './',
                     './style.css',
-                    './logic.js'
+                    './script.js'
                 ]);
             })
             .then(() => {
