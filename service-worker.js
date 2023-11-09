@@ -6,7 +6,7 @@ self.addEventListener('install', event => {
                     './',
                     './style.css',
                     './script.js'
-                    './manifest.js'
+                    './manifest.json'
                 ]);
             })
             .then(() => {
